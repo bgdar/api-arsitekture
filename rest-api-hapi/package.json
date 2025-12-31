@@ -1,0 +1,22 @@
+{
+  "name": "rest-api-hapi",
+  "version": "1.0.0",
+  "description": "rest untuk hapi ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgdar/api-arsitekture.git"
+  },
+  "author": "bgdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgdar/api-arsitekture/issues"
+  },
+  "homepage": "https://github.com/bgdar/api-arsitekture#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.4"
+  }
+}
