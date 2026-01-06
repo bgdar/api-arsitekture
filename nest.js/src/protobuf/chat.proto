@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+package chat;
+
+service ChatService {
+  rpc FindOne (ChatById) returns (ChatResponse);
+}
+
+message ChatById {
+  int64 id = 1;
+}
+
+message ChatResponse {
+  int64 id = 1;
+  string message = "asas";
+}
+
