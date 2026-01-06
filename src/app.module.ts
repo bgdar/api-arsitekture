@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
+// import { AppService } from './app.service';
 import { BooksModule } from './books-module/books.module';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
@@ -23,6 +23,6 @@ import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin
     ,BooksModule,
   ],
   controllers: [AppController],
-  providers: [AppService],
+  // providers: [AppService],
 })
 export class AppModule {}

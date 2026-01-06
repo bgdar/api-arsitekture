@@ -16,17 +16,17 @@
 3. **FrontEnd** Cukup fetch ke 1 Api aja yaitu -> `/graphql` 
 
 ### test api graphql
+> Contoh cara mengetes Api 
 1. test dengan metode post
 ```bash
 curl -X POST http://localhost:3000/graphql \
 -H "Content-Type: application/json" \
 -d '{"query":"{ booksIndo { id booksName } }"}'
-
 ```
+2. di setiap module ada `controller` yang menghandle Api untuk pengetesan 'GraphQL'
 
-## Route Module `Books`
+## Route Module 
 > Cek di setiap route ini untuk melihat info Api dari arsitekture GraphQL
-### `indo-books` 
-example api GraphQL untuk buku buku di indonesia 
-
+### books-model
+example api GraphQL untuk buku buku 
 
