@@ -10,3 +10,12 @@ gaya arsitektur untuk membangun layanan web yang memungkinkan aplikasi berkomuni
 - `rest-api-fastify` = framework  yang cepat, ringan, dan berkinerja tinggi (high-performance), dirancang untuk membangun aplikasi web dan API dengan efisien
 - `rest-api-hapi`  = API RESTful, dan proxy HTTP yang skalabel dan aman, dengan fitur bawaan yang lengkap, arsitektur modular, serta keamanan tinggi untuk aplikasi enterprise
 - `rest-api-hono` = ramework web JavaScript yang kecil, ringan, dan sangat cepat untuk membangun API dan aplikasi web modern, dibangun di atas standar Web (seperti objek Request dan Response
+
+
+
+### jenis jenis Api arsitektur 
+- RESTful API 
+- GraphQL
+- gRPC
+- web socket
+- web hook 
